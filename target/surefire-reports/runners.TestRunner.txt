@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 186.9 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["R-01 Add multiple products to cart", "Regression Test Suite"](10) -- Time elapsed: 9.202 s <<< FAILURE!
+java.lang.AssertionError: ❌ No products found in cart after adding expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CommonSteps.products_should_be_added_successfully(CommonSteps.java:78)
+	at ✽.Products should be added successfully(file:///C:/Users/rezau/eclipse-workspace/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/src/test/resources/features/RegressionTests.feature:10)
+

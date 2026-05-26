@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="186.901" tests="15" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\target\test-classes;C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\target\classes;C:\Users\rezau\.m2\repository\com\microsoft\playwright\playwright\1.53.0\playwright-1.53.0.jar;C:\Users\rezau\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\rezau\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\rezau\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rezau\.m2\repository\com\microsoft\playwright\driver\1.53.0\driver-1.53.0.jar;C:\Users\rezau\.m2\repository\com\microsoft\playwright\driver-bundle\1.53.0\driver-bundle-1.53.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\rezau\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\rezau\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\rezau\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\rezau\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rezau\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rezau\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rezau\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\rezau\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\rezau\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\rezau\AppData\Local\Temp\surefire7092014578027607095\surefirebooter-20260525232303613_3.jar C:\Users\rezau\AppData\Local\Temp\surefire7092014578027607095 2026-05-25T23-23-03_501-jvmRun1 surefire-20260525232303613_1tmp surefire_0-20260525232303613_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\target\test-classes;C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\target\classes;C:\Users\rezau\.m2\repository\com\microsoft\playwright\playwright\1.53.0\playwright-1.53.0.jar;C:\Users\rezau\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\rezau\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\rezau\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\rezau\.m2\repository\com\microsoft\playwright\driver\1.53.0\driver-1.53.0.jar;C:\Users\rezau\.m2\repository\com\microsoft\playwright\driver-bundle\1.53.0\driver-bundle-1.53.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\rezau\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\rezau\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\rezau\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rezau\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\rezau\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\rezau\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rezau\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rezau\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rezau\.m2\repository\org\slf4j\slf4j-simple\2.0.12\slf4j-simple-2.0.12.jar;C:\Users\rezau\.m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\Users\rezau\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rezau"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rezau\AppData\Local\Temp\surefire7092014578027607095\surefirebooter-20260525232303613_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="rezau"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rezau\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rezau\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\rezau\eclipse-workspace\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright\qaBrainsAutomationPlaywright"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/rezau/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin/server;C:/Users/rezau/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529/jre/bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\Default\AppData\Local\Microsoft\WindowsApps;C:\Users\rezau\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rezau\apache-maven-4.0.0-beta-4\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\rezau\eclipse-workspace\qabrains_test;C:\Users\rezau\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\rezau\AppData\Local\Programs\Python\Python313\;C:\Users\rezau\AppData\Local\Programs\Python\Launcher\;C:\Users\rezau\AppData\Local\Microsoft\WindowsApps;C:\Users\rezau\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rezau\IntelliJ IDEA Community Edition 2025.1.1.1\bin;;C:\Users\rezau\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\rezau\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add product to cart&quot;, &quot;Cart Functionality&quot;](1)" classname="runners.TestRunner" time="31.686">
+    <system-out><![CDATA[
+@smoke @regression
+Scenario: Add product to cart         # src/test/resources/features/CartCheckout.feature:10
+  Given User launches the application # stepdefinitions.CommonSteps.user_launches_the_application()
+✅ Added product. Remove buttons: 1
+  When User adds products to cart     # stepdefinitions.CartSteps.user_adds_products_to_cart()
+After reload → 'Remove from cart': 1 | 'Add to cart': 8
+✅ Success: Product verified in cart.
+  Then Product should appear in cart  # stepdefinitions.CartSteps.product_should_appear_in_cart()
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Remove product from cart&quot;, &quot;Cart Functionality&quot;](2)" classname="runners.TestRunner" time="15.601">
+    <system-out><![CDATA[
+@smoke @regression
+Scenario: Remove product from cart    # src/test/resources/features/CartCheckout.feature:15
+  Given User launches the application # stepdefinitions.CommonSteps.user_launches_the_application()
+✅ Added product. Remove buttons: 1
+  When User adds products to cart     # stepdefinitions.CartSteps.user_adds_products_to_cart()
+'Remove from cart' buttons: 1
+✅ Removed. Add buttons now: 9
+  And User removes product from cart  # stepdefinitions.CartSteps.user_removes_product_from_cart()
+After reload → 'Remove from cart': 0 | 'Add to cart': 9
+✅ Success: Cart is empty.
+  Then Cart should be empty           # stepdefinitions.CartSteps.cart_should_be_empty()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Registered user can reset password&quot;, &quot;Forgot Password functionality&quot;](3)" classname="runners.TestRunner" time="15.754">
+    <system-out><![CDATA[
+@smoke @regression @ForgotPassword
+Scenario: Registered user can reset password                         # src/test/resources/features/ForgotPassword.feature:7
+  Given User is on Forgot Password page                              # stepdefinitions.ForgotPasswordSteps.userIsOnForgotPasswordPage()
+  When User enters registered email "rezaulkarimqa25@gmail.com"      # stepdefinitions.ForgotPasswordSteps.userEntersRegisteredEmail(java.lang.String)
+  And User clicks on Submit button                                   # stepdefinitions.ForgotPasswordSteps.userClicksOnSubmitButton()
+✅ ForgotPassword success msg [text=/reset/i]: Reset Password
+  Then User should see success message "Password reset successfully" # stepdefinitions.ForgotPasswordSteps.userShouldSeeSuccessMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Unregistered user cannot reset password&quot;, &quot;Forgot Password functionality&quot;](4)" classname="runners.TestRunner" time="11.35">
+    <system-out><![CDATA[
+@regression @ForgotPassword
+Scenario: Unregistered user cannot reset password                         # src/test/resources/features/ForgotPassword.feature:14
+  Given User is on Forgot Password page                                   # stepdefinitions.ForgotPasswordSteps.userIsOnForgotPasswordPage()
+  When User enters unregistered email "rezaulkarimqa25gmail.com"          # stepdefinitions.ForgotPasswordSteps.userEntersUnregisteredEmail(java.lang.String)
+  And User clicks on Submit button                                        # stepdefinitions.ForgotPasswordSteps.userClicksOnSubmitButton()
+✅ Found error keyword in page body
+  Then User should see error message "Please enter a valid email address" # stepdefinitions.ForgotPasswordSteps.userShouldSeeErrorMessage(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Functionality&quot;](5)" classname="runners.TestRunner" time="5.376">
+    <system-out><![CDATA[
+@smoke @regression @Login
+Scenario: Login with valid credentials         # src/test/resources/features/Login.feature:10
+  Given User launches the application          # stepdefinitions.CommonSteps.user_launches_the_application()
+  When User enters valid username and password # stepdefinitions.LoginSteps.login_valid()
+Login URL check: https://practice.qabrains.com/ → PASSED
+  Then User should be logged in successfully   # stepdefinitions.LoginSteps.verify_login()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credentials&quot;, &quot;Login Functionality&quot;](6)" classname="runners.TestRunner" time="4.232">
+    <system-out><![CDATA[
+@regression @Login
+Scenario: Login with invalid credentials         # src/test/resources/features/Login.feature:15
+  Given User launches the application            # stepdefinitions.CommonSteps.user_launches_the_application()
+  When User enters invalid username and password # stepdefinitions.LoginSteps.login_invalid()
+✅ Login error detected via: [class*='error'], [class*='invalid']
+  Then Error message should be displayed         # stepdefinitions.LoginSteps.verify_error()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logged in user should be able to logout&quot;, &quot;Logout Functionality&quot;](7)" classname="runners.TestRunner" time="36.158">
+    <system-out><![CDATA[
+@smoke @regression @Logout
+Scenario: Logged in user should be able to logout # src/test/resources/features/Logout.feature:11
+  Given User launches the application             # stepdefinitions.CommonSteps.user_launches_the_application()
+Login URL check: https://practice.qabrains.com/ → PASSED
+  And User is logged in                           # stepdefinitions.LogoutSteps.user_is_logged_in()
+🔓 Logout প্রক্রিয়া শুরু হচ্ছে...
+🔍 Strategy 1: সরাসরি Logout বাটন খোঁজা হচ্ছে...
+⚠️ Strategy 1 ব্যর্থ।
+🔍 Strategy 2: Dropdown trigger খোঁজা হচ্ছে...
+🖱️ Trigger পাওয়া গেছে: [aria-expanded]
+⚠️ Strategy 2 ব্যর্থ।
+🔍 Strategy 3: Page এ Logout text সহ যেকোনো element খোঁজা হচ্ছে...
+✅ JavaScript দিয়ে Logout element খুঁজে click করা হয়েছে।
+✅ Logout redirect সম্পন্ন। Current URL: https://practice.qabrains.com/?logged=true
+  When User clicks on logout button               # stepdefinitions.LogoutSteps.user_clicks_on_logout_button()
+  Then User should be logged out successfully     # stepdefinitions.LogoutSteps.user_should_be_logged_out_successfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful user registration with valid email&quot;, &quot;User Registration&quot;](8)" classname="runners.TestRunner" time="9.205">
+    <system-out><![CDATA[
+@smoke @regression @Registration
+Scenario: Successful user registration with valid email                             # src/test/resources/features/Registration.feature:11
+  Given User launches the application                                               # stepdefinitions.CommonSteps.user_launches_the_application()
+  And User is on homepage                                                           # stepdefinitions.CommonSteps.user_is_on_homepage()
+  When User navigates to registration page                                          # stepdefinitions.RegistrationSteps.user_navigates_to_registration_page()
+📧 Registering with email: testuser1779765909368@mailtest.com
+  And User enters valid registration details with email "rezaulkarimqa25@gmail.com" # stepdefinitions.RegistrationSteps.user_enters_valid_registration_details_with_email(java.lang.String)
+📄 Page after register (first 400 chars): #nprogress{pointer-events:none}#nprogress .bar{background:#091DBD;position:fixed;z-index:1600;top: 0;left:0;width:100%;height:2px}#nprogress .peg{display:block;position:absolute;right:0;width:100px;height:100%;box-shadow:0 0 10px #091DBD,0 0 5px #091DBD;opacity:1;-webkit-transform:rotate(3deg) translate(0px,-4px);-ms-transform:rotate(3deg) translate(0px,-4px);transform:rotate(3deg) translate(0px,-
+🌐 URL after register: https://practice.qabrains.com/registration
+  And User clicks on register button                                                # stepdefinitions.RegistrationSteps.user_clicks_on_register_button()
+🔍 Checking success. URL: https://practice.qabrains.com/registration
+✅ Found success keyword: confirm
+  Then User should be registered successfully                                       # stepdefinitions.RegistrationSteps.user_should_be_registered_successfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Registration should fail with invalid email&quot;, &quot;User Registration&quot;](9)" classname="runners.TestRunner" time="12.812">
+    <system-out><![CDATA[
+@regression @Registration
+Scenario: Registration should fail with invalid email                        # src/test/resources/features/Registration.feature:18
+  Given User launches the application                                        # stepdefinitions.CommonSteps.user_launches_the_application()
+  And User is on homepage                                                    # stepdefinitions.CommonSteps.user_is_on_homepage()
+  When User navigates to registration page                                   # stepdefinitions.RegistrationSteps.user_navigates_to_registration_page()
+📧 Registering with email: rezaulkarimqa25gmail.com
+  And User enters registration details with email "rezaulkarimqa25gmail.com" # stepdefinitions.RegistrationSteps.user_enters_registration_details_with_email(java.lang.String)
+📄 Page after register (first 400 chars): #nprogress{pointer-events:none}#nprogress .bar{background:#091DBD;position:fixed;z-index:1600;top: 0;left:0;width:100%;height:2px}#nprogress .peg{display:block;position:absolute;right:0;width:100px;height:100%;box-shadow:0 0 10px #091DBD,0 0 5px #091DBD;opacity:1;-webkit-transform:rotate(3deg) translate(0px,-4px);-ms-transform:rotate(3deg) translate(0px,-4px);transform:rotate(3deg) translate(0px,-
+🌐 URL after register: https://practice.qabrains.com/registration
+  And User clicks on register button                                         # stepdefinitions.RegistrationSteps.user_clicks_on_register_button()
+HTML5 validation: Please include an '@' in the email address. 'rezaulkarimqa25gmail.com' is missing an '@'.
+  Then Email validation error message should be displayed                    # stepdefinitions.RegistrationSteps.email_validation_error_message_should_be_displayed()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;R-01 Add multiple products to cart&quot;, &quot;Regression Test Suite&quot;](10)" classname="runners.TestRunner" time="9.202">
+    <failure message="❌ No products found in cart after adding expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: ❌ No products found in cart after adding expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CommonSteps.products_should_be_added_successfully(CommonSteps.java:78)
+	at ✽.Products should be added successfully(file:///C:/Users/rezau/eclipse-workspace/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/src/test/resources/features/RegressionTests.feature:10)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario: R-01 Add multiple products to cart # src/test/resources/features/RegressionTests.feature:7
+  Given User launches the application        # stepdefinitions.CommonSteps.user_launches_the_application()
+✅ Added product. Remove buttons: 1
+  When User adds products to cart            # stepdefinitions.CartSteps.user_adds_products_to_cart()
+  Then Products should be added successfully # stepdefinitions.CommonSteps.products_should_be_added_successfully()
+      java.lang.AssertionError: â�Œ No products found in cart after adding expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CommonSteps.products_should_be_added_successfully(CommonSteps.java:78)
+	at âœ½.Products should be added successfully(file:///C:/Users/rezau/eclipse-workspace/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/qaBrainsAutomationPlaywright/src/test/resources/features/RegressionTests.feature:10)
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;R-02 Update product quantity&quot;, &quot;Regression Test Suite&quot;](11)" classname="runners.TestRunner" time="6.05">
+    <system-out><![CDATA[
+@regression
+Scenario: R-02 Update product quantity # src/test/resources/features/RegressionTests.feature:13
+  Given User launches the application  # stepdefinitions.CommonSteps.user_launches_the_application()
+Product quantity updated
+  When User updates product quantity   # stepdefinitions.RegressionSteps.user_updates_product_quantity()
+Verifying updated quantity: expected=0, actual=0
+  Then Quantity should be updated      # stepdefinitions.RegressionSteps.quantity_should_be_updated()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;R-03 Search invalid item&quot;, &quot;Regression Test Suite&quot;](12)" classname="runners.TestRunner" time="3.52">
+    <system-out><![CDATA[
+@regression
+Scenario: R-03 Search invalid item    # src/test/resources/features/RegressionTests.feature:19
+  Given User launches the application # stepdefinitions.CommonSteps.user_launches_the_application()
+Invalid item searched
+  When User searches for invalid item # stepdefinitions.RegressionSteps.user_searches_for_invalid_item()
+No search result displayed
+  Then No result should be displayed  # stepdefinitions.RegressionSteps.no_result_should_be_displayed()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;S-01 Verify Home page loads&quot;, &quot;Smoke Test Suite&quot;](13)" classname="runners.TestRunner" time="1.886">
+    <system-out><![CDATA[
+@smoke
+Scenario: S-01 Verify Home page loads     # src/test/resources/features/SmokeTests.feature:7
+  Given User launches the application     # stepdefinitions.CommonSteps.user_launches_the_application()
+  Then Home page should load successfully # stepdefinitions.CommonSteps.home_page_should_load_successfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;S-02 Verify navigation links&quot;, &quot;Smoke Test Suite&quot;](14)" classname="runners.TestRunner" time="9.186">
+    <system-out><![CDATA[
+@smoke
+Scenario: S-02 Verify navigation links        # src/test/resources/features/SmokeTests.feature:12
+  Given User launches the application         # stepdefinitions.CommonSteps.user_launches_the_application()
+⚠ Could not find nav link: 'Catalog'
+📋 All links on the page:
+   → [(Practice Site)] href=/
+   → [Home] href=/
+   → [QA Topics] href=https://qabrains.com/topics
+   → [Discussion] href=https://qabrains.com/discussion
+   → [Tags] href=https://qabrains.com/tags
+   → [Jobs] href=https://qabrains.com/jobs
+   → [Practice Site] href=https://qabrains.com/practice-site
+   → [About Us] href=https://qabrains.com/about
+   → [Sign In] href=https://qabrains.com/auth/login
+   → [] href=https://qabrains.com
+   → [Discussion] href=https://qabrains.com/discussion
+   → [About Us] href=https://qabrains.com/about
+   → [Terms & Conditions] href=https://qabrains.com/terms
+   → [Privacy Policy] href=https://qabrains.com/policy
+   → [] href=https://www.linkedin.com/showcase/qabrainscom
+   → [] href=https://www.facebook.com/qabrainscom
+   → [] href=https://www.youtube.com/@QABrains
+   → [support@qabrains.com] href=mailto:support@qabrains.com
+✅ Found nav link 'About' via: nav a:has-text('About')
+⚠ Could not find nav link: 'Blog'
+📋 All links on the page:
+   → [(Practice Site)] href=/
+   → [Home] href=/
+   → [QA Topics] href=https://qabrains.com/topics
+   → [Discussion] href=https://qabrains.com/discussion
+   → [Tags] href=https://qabrains.com/tags
+   → [Jobs] href=https://qabrains.com/jobs
+   → [Practice Site] href=https://qabrains.com/practice-site
+   → [About Us] href=https://qabrains.com/about
+   → [Sign In] href=https://qabrains.com/auth/login
+   → [] href=https://qabrains.com
+   → [Discussion] href=https://qabrains.com/discussion
+   → [About Us] href=https://qabrains.com/about
+   → [Terms & Conditions] href=https://qabrains.com/terms
+   → [Privacy Policy] href=https://qabrains.com/policy
+   → [] href=https://www.linkedin.com/showcase/qabrainscom
+   → [] href=https://www.facebook.com/qabrainscom
+   → [] href=https://www.youtube.com/@QABrains
+   → [support@qabrains.com] href=mailto:support@qabrains.com
+  When User clicks on Catalog, About and Blog # stepdefinitions.SmokeSteps.user_clicks_on_catalog_about_and_blog()
+  Then Pages should navigate correctly        # stepdefinitions.SmokeSteps.pages_should_navigate_correctly()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;S-03 Verify wishlist and refer a friend functionality&quot;, &quot;Smoke Test Suite&quot;](15)" classname="runners.TestRunner" time="13.694">
+    <system-out><![CDATA[
+@smoke
+Scenario: S-03 Verify wishlist and refer a friend functionality # src/test/resources/features/SmokeTests.feature:18
+  Given User launches the application                           # stepdefinitions.CommonSteps.user_launches_the_application()
+⚠ Could not find nav link: 'Wish List'
+📋 All links on the page:
+   → [(Practice Site)] href=/
+   → [Home] href=/
+   → [QA Topics] href=https://qabrains.com/topics
+   → [Discussion] href=https://qabrains.com/discussion
+   → [Tags] href=https://qabrains.com/tags
+   → [Jobs] href=https://qabrains.com/jobs
+   → [Practice Site] href=https://qabrains.com/practice-site
+   → [About Us] href=https://qabrains.com/about
+   → [Sign In] href=https://qabrains.com/auth/login
+   → [] href=https://qabrains.com
+   → [Discussion] href=https://qabrains.com/discussion
+   → [About Us] href=https://qabrains.com/about
+   → [Terms & Conditions] href=https://qabrains.com/terms
+   → [Privacy Policy] href=https://qabrains.com/policy
+   → [] href=https://www.linkedin.com/showcase/qabrainscom
+   → [] href=https://www.facebook.com/qabrainscom
+   → [] href=https://www.youtube.com/@QABrains
+   → [support@qabrains.com] href=mailto:support@qabrains.com
+⚠ Could not find nav link: 'Refer a Friend'
+📋 All links on the page:
+   → [(Practice Site)] href=/
+   → [Home] href=/
+   → [QA Topics] href=https://qabrains.com/topics
+   → [Discussion] href=https://qabrains.com/discussion
+   → [Tags] href=https://qabrains.com/tags
+   → [Jobs] href=https://qabrains.com/jobs
+   → [Practice Site] href=https://qabrains.com/practice-site
+   → [About Us] href=https://qabrains.com/about
+   → [Sign In] href=https://qabrains.com/auth/login
+   → [] href=https://qabrains.com
+   → [Discussion] href=https://qabrains.com/discussion
+   → [About Us] href=https://qabrains.com/about
+   → [Terms & Conditions] href=https://qabrains.com/terms
+   → [Privacy Policy] href=https://qabrains.com/policy
+   → [] href=https://www.linkedin.com/showcase/qabrainscom
+   → [] href=https://www.facebook.com/qabrainscom
+   → [] href=https://www.youtube.com/@QABrains
+   → [support@qabrains.com] href=mailto:support@qabrains.com
+  When User clicks on Wish list and Refer a Friend              # stepdefinitions.SmokeSteps.user_clicks_on_wish_list_and_refer_a_friend()
+  Then Pages should open successfully                           # stepdefinitions.SmokeSteps.pages_should_open_successfully()
+]]></system-out>
+  </testcase>
+</testsuite>
